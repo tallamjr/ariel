@@ -1,0 +1,21 @@
+
+name: ariel
+channels:
+  - apple
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - python=3.9
+  - pip:
+    - black
+    - neovim
+    - nbval
+    - pytest
+    - pytest-cov
+    - pytest-subtests
+    - pep517
+    - twine
+    - tensorflow-deps
+    - -r requirements.txt
+

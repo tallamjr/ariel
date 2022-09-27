@@ -1,0 +1,8 @@
+# Add python packages here
+matplotlib
+numpy
+pandas
+polars
+jupyter
+tensorflow-macos
+tensorflow-metal
